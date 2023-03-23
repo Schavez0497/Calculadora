@@ -6,10 +6,7 @@ public class Multiplicacion implements ICalculo{
         return a*b;
     }
 
-}
-public class Suma implements ICalculo{
-    @Override
-    public Integer calcular(int a, int b) {
+    public Integer calcular2(int a, int b) {
         return a+b;
     }
 

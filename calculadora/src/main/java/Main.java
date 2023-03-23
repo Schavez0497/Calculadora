@@ -26,6 +26,7 @@ public class Main {
                     Suma suma = new Suma();
                     Calculadora calculadora = new Calculadora(suma);
                     System.out.println("El resultado de la suma es: " + calculadora.calcular(num1, num2));
+                    System.out.println("El resultado de la suma es: " + calculadora.calcular(num1, num2));
                     if (suma.verificar(5)){
                         System.out.println("Iguales");
                     }else{
