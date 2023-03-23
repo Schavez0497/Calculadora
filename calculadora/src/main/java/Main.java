@@ -25,10 +25,14 @@ public class Main {
                     num1 = scanner.nextInt();
                     System.out.println("Digite segundo numero: ");
                     num2 = scanner.nextInt();
-
-                    Calculadora calculadora = new Calculadora(new Suma());
+                    Suma suma = new Suma();
+                    Calculadora calculadora = new Calculadora(suma);
                     System.out.println("El resultado de la suma es: " + calculadora.calcular(num1, num2));
-
+                    if (suma.verificar(5)){
+                        System.out.println("Iguales");
+                    }else{
+                        System.out.println("Diferentes");
+                    }
                     break;
                 case 2:
                     System.out.println("Digite primer numero: ");
