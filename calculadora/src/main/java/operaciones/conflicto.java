@@ -1,10 +1,8 @@
 package operaciones;
 
-public class Suma implements ICalculo{
+public class conflicto implements ICalculo{
     @Override
     public Integer calcular(int a, int b) {
         return a+b;
     }
 }
-
-
