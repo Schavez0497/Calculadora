@@ -1,10 +1,10 @@
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Scanner scannerString=new Scanner(System.in);
-
 
         int opcion =0;
 
@@ -48,5 +48,6 @@ public class Main {
         System.out.println("3. Multiplicacion");
         System.out.println("4. Division");
         System.out.println("*******************************");
+
     }
 }
