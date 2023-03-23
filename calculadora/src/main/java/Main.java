@@ -55,7 +55,7 @@ public class Main {
                     num2 = scanner.nextInt();
 
                     Calculadora calculadora4 = new Calculadora(new Division());
-                    System.out.println("El resultado de la division es: " + calculadora4.calcular(num1, num2));
+                    System.out.println("El resultado de la prueba es: " + calculadora4.calcular(num1, num2));
                 default:
                     break;
 
